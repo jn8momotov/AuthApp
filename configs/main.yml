@@ -1,0 +1,18 @@
+http:
+  host: "localhost"
+  port: "8080"
+  maxHeaderBytes: 1
+  readTimeout: 10s
+  writeTimeout: 10s
+
+db:
+  username: "postgres"
+  host: "localhost"
+  port: "5436"
+  dbname: "postgres"
+  sslmode: "disable"
+
+auth:
+  accessTokenTTL: 2h
+  refreshTokenTTL: 24h
+  verificationCodeLength: 8
